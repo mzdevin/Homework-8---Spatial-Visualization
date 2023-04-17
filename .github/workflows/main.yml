@@ -38,7 +38,7 @@ jobs:
           MAPS_API_KEY: ${{ secrets.MAPS_API_KEY }}
         with:
           to: html
-          path: drive_times_report.qmd
+          path: MeghanDevlinHomework8.1html.html
       - name: Setup git config
         run: |
           git config user.name "GitHub Actions Bot"
