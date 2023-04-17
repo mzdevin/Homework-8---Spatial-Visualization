@@ -52,7 +52,7 @@ jobs:
           MAPS_API_KEY: ${{ secrets.MAPS_API_KEY }}
         with:
           to: html
-          path: MeghanDevlinHomework8.1html.html
+          path: MeghanDevlinHomework8.1html.RMD
       - name: Setup git config
         run: |
           git config user.name "GitHub Actions Bot"
