@@ -47,6 +47,7 @@ jobs:
                any::viridis
                any::htmltools
                any::rprojroot
+               any::janitor
       - name: Render document
         uses: quarto-dev/quarto-actions/render@v2
         env:
