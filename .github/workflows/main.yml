@@ -48,7 +48,5 @@ jobs:
           git add .
           git commit -m "Updated report"
           git push origin main
-Footer
-© 2023 GitHub, Inc.
-Footer navigation
+
 
