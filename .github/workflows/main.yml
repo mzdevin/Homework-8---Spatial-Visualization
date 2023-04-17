@@ -32,6 +32,20 @@ jobs:
                any::lubridate
                any::googleway
                any::purrr
+               any::tidyverse
+               any::gt
+               any::paletteer
+               any::plotly
+               any::flexdashboard
+               any::sf
+               any::tidycensus
+               any::ggmap
+               any::osmdata
+               any::leaflet
+               any::RColorBrewer
+               any::ggthemes
+               any::viridis
+               any::htmltools
       - name: Render document
         uses: quarto-dev/quarto-actions/render@v2
         env:
