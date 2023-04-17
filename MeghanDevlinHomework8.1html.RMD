@@ -21,6 +21,7 @@ library(ggmap)
 library(osmdata)
 library(leaflet)
 library(RColorBrewer)
+library(rprojroot)
 
 
 ##API code from drivetimes:
